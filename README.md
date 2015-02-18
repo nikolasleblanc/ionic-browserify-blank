@@ -4,25 +4,25 @@ Based off the blank ionic template, this restructures the code to allow for the 
 
 ## Instructions
 
-### Clone the repo
+### Step 1: Clone the repo
 
 ```
 git clone git@github.com:nikolasleblanc/ionic-browserify-blank.git
 ```
 
-### Install all node_modules
+### Step 2: Install all node_modules
 
 ```
 npm install
 ```
 
-### Run browserify
+### Step 3: Run browserify
 
 ```
 browserify -d www/js/app.js -o www/js/app.bundle.js
 ```
 
-### Run ionic serve
+### Step 4: Run ionic serve
 
 ```
 ionic serve
